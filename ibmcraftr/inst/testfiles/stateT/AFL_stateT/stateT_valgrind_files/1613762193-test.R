@@ -1,0 +1,3 @@
+testlist <- list(cumuprobs = numeric(0), newstates = c(1819046617L, -1141859021L,  127072416L, 1017774144L, 4220273L, 1573978112L, 8331008L, 184549760L,  813373456L, 30816173L, -1783845632L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L),      origin = 186452492L, sMatrix = structure(0, .Dim = c(1L,      1L)))
+result <- do.call(ibmcraftr:::stateT,testlist)
+str(result)

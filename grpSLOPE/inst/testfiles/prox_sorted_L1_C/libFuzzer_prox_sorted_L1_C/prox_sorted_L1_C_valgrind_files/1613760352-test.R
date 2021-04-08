@@ -1,0 +1,3 @@
+testlist <- list(lambda = NaN, y = c(NaN, NaN, 0))
+result <- do.call(grpSLOPE:::prox_sorted_L1_C,testlist)
+str(result)

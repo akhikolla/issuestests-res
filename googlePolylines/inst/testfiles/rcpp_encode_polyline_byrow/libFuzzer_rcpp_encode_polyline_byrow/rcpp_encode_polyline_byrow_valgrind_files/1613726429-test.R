@@ -1,0 +1,3 @@
+testlist <- list(latitude = c(1.38231049782681e-309, 3.47671686567189e-310,  3.09829366178658e+227, 1.34140986504445e+199, 8.90389806611909e+252,  NaN, NaN, NaN, NaN), longitude = c(NaN, 3.23785921002061e-319,  0, NaN, NaN, NaN, 1.8505328367944e+102, 1.1945305291615e+103,  NaN, -1.64583722063811e+304, NaN, NaN, 5.10524671040562e-12))
+result <- do.call(googlePolylines:::rcpp_encode_polyline_byrow,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(Deltatmp = numeric(0), KnotI = numeric(0), KnotM = numeric(0),      Markertmp = numeric(0), Utmp = c(-9.9331111696619e+304, -2.49850160293032e+260,      -5.51960871276834e+303, 8.90875009132448e+194, 2.90083573602233e-215,      4.04760295186106e-313, 1.39067118175966e-309, 2.07232349020914e-315,      2.39000385936419e-310, 2.12199566448447e-314, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), Vtmp = numeric(0),      ki = 0L)
+result <- do.call(intcensROC:::sieve,testlist)
+str(result)

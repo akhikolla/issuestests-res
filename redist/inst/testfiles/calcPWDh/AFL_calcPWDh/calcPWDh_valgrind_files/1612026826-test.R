@@ -1,0 +1,3 @@
+testlist <- list(x = structure(c(4.65661649758392e-10, 7.00757279674781e-310,  3.33932175252979e-294, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(5L,  7L)))
+result <- do.call(redist:::calcPWDh,testlist)
+str(result)

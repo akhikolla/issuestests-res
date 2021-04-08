@@ -1,0 +1,3 @@
+testlist <- list(v = numeric(0), w = numeric(0), x = structure(c(-7.87175054191093e-20,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(5L,  8L)))
+result <- do.call(RaceID:::applyProb,testlist)
+str(result)

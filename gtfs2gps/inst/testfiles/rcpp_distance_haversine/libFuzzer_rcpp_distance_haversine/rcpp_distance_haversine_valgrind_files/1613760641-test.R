@@ -1,0 +1,3 @@
+testlist <- list(latFrom = -4.66320213228701e+304, latTo = numeric(0), lonFrom = c(4.34970285608817e-114,  1.68048229123505e+117, -8.9756956698355e+305, NaN, 1.16900357973417e+111,  NaN, NaN, NaN, -6.74117712975988e+307, 8.81337490194791e-280,  2.12202816955737e-314, -4.66320128918044e+304, 0, 0, 0), lonTo = numeric(0),      tolerance = 0)
+result <- do.call(gtfs2gps:::rcpp_distance_haversine,testlist)
+str(result)

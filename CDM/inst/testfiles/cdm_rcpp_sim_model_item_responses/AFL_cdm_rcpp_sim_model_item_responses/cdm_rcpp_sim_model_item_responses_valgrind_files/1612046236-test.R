@@ -1,0 +1,3 @@
+testlist <- list(irfprob = numeric(0), irfprob = NULL, index = NULL, dim_irfprob = integer(0),      theta_index = c(2147479068L, -1423729954L, 482445032L, 64364681L,      -2054847099L, -2063497914L, 721450752L, 33577781L, 134219519L,      -6536323L, NA, -1757013266L, 472161347L, 1967159943L, 411173L,      -300089473L, 1183293079L, 1176890908L, -700256341L))
+result <- do.call(CDM:::cdm_rcpp_sim_model_item_responses,testlist)
+str(result)

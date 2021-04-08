@@ -1,0 +1,3 @@
+testlist <- list(allFaces = structure(c(8.69129569059365e-254, 1.80107070103247e-255,  7.31693666047017e-304, 6.55171425874231e-292, 4.77830744827811e-299,  NA, 3.4668439765021e-255, 1.6615421472837e-202, 1.80107070497287e-255,  82432.0625138303), .Dim = c(10L, 1L)), div = numeric(0))
+result <- do.call(icosa:::AllNeighboursTri_,testlist)
+str(result)

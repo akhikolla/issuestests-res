@@ -1,0 +1,3 @@
+testlist <- list(latitude = numeric(0), longitude = -Inf)
+result <- do.call(googlePolylines:::rcpp_encode_polyline_byrow,testlist)
+str(result)

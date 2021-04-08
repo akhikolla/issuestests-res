@@ -1,0 +1,3 @@
+testlist <- list(x = c(NaN, Inf, -5.04975683349975e-195, 0), y = c(NaN, NaN,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, -5.04975683352008e-195,  -4.14174398718279e+306, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,  NaN, -5.55845089977876e+303, 2.12197941071285e-314, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+result <- do.call(remote:::corC,testlist)
+str(result)

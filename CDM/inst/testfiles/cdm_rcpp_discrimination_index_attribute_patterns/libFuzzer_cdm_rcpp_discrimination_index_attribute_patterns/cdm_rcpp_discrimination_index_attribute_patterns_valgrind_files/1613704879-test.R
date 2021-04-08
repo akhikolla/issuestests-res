@@ -1,0 +1,3 @@
+testlist <- list(patt = NULL, attr_patt = structure(c(0, 9.23902757723131e-322,  7.47708026454361e+20, 7.47708026454361e+20, 7.47708026454361e+20,  7.47708026454361e+20, 7.47708026454361e+20, 7.47708026454361e+20,  7.47708026454361e+20, 2.41785163922926e+24, 0, 0, 2.22329540628561e-322,  3.42536054359465e-194, 0), .Dim = c(3L, 5L)))
+result <- do.call(CDM:::cdm_rcpp_discrimination_index_attribute_patterns,testlist)
+str(result)

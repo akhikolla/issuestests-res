@@ -1,0 +1,3 @@
+testlist <- list(a = 6.91691904177745e-323, b = 5.28376951950353e-312, m = 0,      s = 0)
+result <- do.call(GPareto:::exipsi_Rcpp,testlist)
+str(result)

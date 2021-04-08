@@ -1,0 +1,3 @@
+testlist <- list(edges = structure(c(4.10413909751076e-207, 4.10413909751076e-207,  4.10413909751076e-207, 4.10413909751076e-207, 1.02064027631295e-202,  3.23790861658519e-319, 2.4669098900834e-308), .Dim = c(1L, 7L )))
+result <- do.call(icosa:::EdgesToFaces_,testlist)
+str(result)

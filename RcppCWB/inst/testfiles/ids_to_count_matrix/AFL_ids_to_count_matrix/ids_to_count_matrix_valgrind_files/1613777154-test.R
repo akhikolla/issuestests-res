@@ -1,0 +1,3 @@
+testlist <- list(ids = c(14483484L, 6029056L, 909522486L, 909522486L, 909522486L,  909522512L, 909522486L, 909522486L, 909522486L, 908539446L, 906966582L,  909522560L, -13224394L))
+result <- do.call(RcppCWB:::ids_to_count_matrix,testlist)
+str(result)

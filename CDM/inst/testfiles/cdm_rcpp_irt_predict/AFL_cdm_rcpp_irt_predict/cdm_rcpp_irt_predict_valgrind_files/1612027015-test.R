@@ -1,0 +1,3 @@
+testlist <- list(K = 0L, TP = 0L, irf1 = numeric(0), resp = structure(c(2.99939408264402e-241,  1.97274569259199e-154, 5.83680679872173e-63, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), .Dim = 5:6))
+result <- do.call(CDM:::cdm_rcpp_irt_predict,testlist)
+str(result)

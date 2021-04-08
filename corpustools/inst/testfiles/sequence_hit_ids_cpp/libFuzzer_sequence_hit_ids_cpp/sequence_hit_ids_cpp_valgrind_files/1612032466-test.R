@@ -1,0 +1,3 @@
+testlist <- list(con = Inf, length = 0, pos = numeric(0), subcon = c(-3.90266541370711e+304,  NaN, NaN, NaN, 8.69169475979371e-310, 0, 0, 0, -1.01375669813405e-262,  -1.01374331998156e-262, -1.01374331998156e-262, NaN, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), i = NULL, term_i = numeric(0))
+result <- do.call(corpustools:::sequence_hit_ids_cpp,testlist)
+str(result)

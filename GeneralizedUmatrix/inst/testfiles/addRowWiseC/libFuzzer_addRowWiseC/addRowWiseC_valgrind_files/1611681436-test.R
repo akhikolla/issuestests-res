@@ -1,0 +1,3 @@
+testlist <- list(DataPoint = numeric(0), WeightVectors = structure(c(3.25120142063643e+226,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0), .Dim = c(9L, 5L)))
+result <- do.call(GeneralizedUmatrix:::addRowWiseC,testlist)
+str(result)

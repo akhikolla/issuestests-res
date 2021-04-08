@@ -1,0 +1,3 @@
+testlist <- list(x = c(3.97984374242605e+228, 3.68169779261732e+180, 3.07839226128608e+169,  1.68048745358866e+117, 1.5319122082349e-94, 8.76431881444561e+252,  NaN), y = numeric(0))
+result <- do.call(remote:::corC,testlist)
+str(result)

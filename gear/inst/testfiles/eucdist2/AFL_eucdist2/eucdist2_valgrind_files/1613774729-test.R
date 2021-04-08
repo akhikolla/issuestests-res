@@ -1,0 +1,3 @@
+testlist <- list(eps = 0, x1 = Inf, x2 = c(1.91374883209651e+214, 1.91374883209651e+214,  1.91374883209651e+214, 1.91374883209651e+214, NaN, NaN, NaN,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, -1.62915940346897e+308,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, 1.35577335064806e-309, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0), y1 = NA_real_, y2 = numeric(0))
+result <- do.call(gear:::eucdist2,testlist)
+str(result)

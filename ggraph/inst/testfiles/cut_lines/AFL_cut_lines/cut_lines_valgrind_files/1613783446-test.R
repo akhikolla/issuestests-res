@@ -1,0 +1,3 @@
+testlist <- list(height = NULL, type = NULL, width = NULL, id = c(-127192101L,  2125455872L), height = NULL, type = NULL, width = NULL, x = c(5.68694871978693e-312,  6.33435850446938e-227, 1.42064509472455e-122), y = c(8.95564379724411e+48,  5.77734529781924e-275, NaN, 9.0157114100128e-247, Inf, 1.42428652977578e-306,  2.33177433272435e-219, 1.31793856073171e-308, 1.01893414564076e-135,  1.08743357331111e-127, -4.0507900311808e+34, -4.0507900311808e+34 ), end_height = numeric(0), end_type = character(0), end_width = numeric(0),      start_height = numeric(0), start_type = character(0), start_width = numeric(0))
+result <- do.call(ggraph:::cut_lines,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(line = structure(c(6.36600356737956e-314, 6.98350748960442e-251,  2.2250738585072e-308, 2.48671381753743e-316, 7.97375596087805e-204,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(9L,  7L)), precision = 0L, dim = NULL, precision = NULL, third_dim = 0L,      third_dim_precision = 0L)
+result <- do.call(flexpolyline::encode,testlist)
+str(result)

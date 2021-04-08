@@ -1,0 +1,3 @@
+testlist <- list(gridPoints = structure(c(-1.09722691798122e+304, 2.31697700130747e+77,  1.43563302434482e-42, 5.37794075116343e-299, 5.75534044797391e+222,  6.91226960089317e-304, 767502234290.698, 1.49877886028312e+107,  7.29112034636272e-304, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(2L,  10L)), origin = numeric(0), queries = structure(0, .Dim = c(1L,  1L)))
+result <- do.call(icosa:::Aggregate_,testlist)
+str(result)

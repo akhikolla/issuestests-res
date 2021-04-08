@@ -1,0 +1,3 @@
+testlist <- list(ix = c(1948281198L, 0L, 3133L, 842924031L, 774307839L, 1040182783L,  -1L, 0L, 0L, 16777215L, -1L, -15975118L, -13697026L, -12744974L,  15750L, 4386L, -1L, 12L, 0L, 32L, 65341L, -436273152L, 4063231L,  1040182783L, -256L, 15532032L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L), jx = integer(0),      ti = integer(0), tj = integer(0))
+result <- do.call(multbxxc:::match_ij,testlist)
+str(result)

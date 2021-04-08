@@ -1,0 +1,3 @@
+testlist <- list(mat = structure(c(4.83792973848124e-256, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(10L, 2L)),      nTeams = 0L)
+result <- do.call(elo:::finalElos,testlist)
+str(result)

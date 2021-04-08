@@ -1,0 +1,3 @@
+testlist <- list(ciR = structure(c(2.84809453888922e-306, 3.14077135808764e-317,  1.75738987696943e+159, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(7L, 7L)), uR = numeric(0),      vR = structure(c(NA, 2.71615914472205e-312), .Dim = 1:2))
+result <- do.call(mmsample:::ruler,testlist)
+str(result)
