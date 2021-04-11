@@ -1,3 +1,0 @@
-testlist <- list(N = 0, eps = 0, est = c(0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L ), index = NULL, post = structure(c(5.5329055018733e-222, 2.35731638584651e-154 ), .Dim = 2:1), theta = NULL, max_est_index = 0L, prob_theta = numeric(0))
-result <- do.call(CDM:::cdm_rcpp_est_calc_accuracy_version2_consistency_helper,testlist)
-str(result)

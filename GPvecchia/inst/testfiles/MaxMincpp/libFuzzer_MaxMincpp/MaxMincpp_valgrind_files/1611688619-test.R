@@ -1,3 +1,0 @@
-testlist <- list(locations = structure(c(NaN, 0), .Dim = 2:1))
-result <- do.call(GPvecchia:::MaxMincpp,testlist)
-str(result)

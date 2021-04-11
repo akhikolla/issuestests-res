@@ -1,3 +1,0 @@
-testlist <- list(K = 0L, probs = c(7.293347093521e-304, 1.78017961626787e-307,  7.74681888422373e-304, 1.95638056755615e-314, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0), probs = NULL, dim_probs = numeric(0))
-result <- do.call(CDM:::cdm_rcpp_discrimination_index_idi,testlist)
-str(result)

@@ -1,3 +1,0 @@
-testlist <- list(dcm = numeric(0), oldknots = numeric(0), restmp = numeric(0),      tol = 0, wht = c(2.1344747646254e-280, NaN, 9.36335269201192e-97,      -8.92164332896661e+303, NaN, NaN, 2.52435489670738e-29, NaN,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0), x = numeric(0))
-result <- do.call(GeDS:::Knotnewtest,testlist)
-str(result)

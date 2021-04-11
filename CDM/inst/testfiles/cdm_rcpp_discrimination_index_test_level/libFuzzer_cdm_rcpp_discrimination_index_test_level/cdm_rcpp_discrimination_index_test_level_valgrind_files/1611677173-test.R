@@ -1,3 +1,0 @@
-testlist <- list(attribute = NULL, discrim_item_attribute = structure(c(-1.557374211109e-207,  4.1410356681522e+204, 4.1410356681522e+204, 4.1410356681522e+204,  4.1410356681522e+204, 4.1410356681522e+204, 4.1410356681522e+204,  4.1410356681522e+204, 4.1410356681522e+204, 4.14103566815884e+204,  0, 1.2896302099844e-307, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(6L, 6L)))
-result <- do.call(CDM:::cdm_rcpp_discrimination_index_test_level,testlist)
-str(result)

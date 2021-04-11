@@ -1,3 +1,0 @@
-testlist <- list(mat = structure(c(4.24399158193054e-314, 2.00980887232527e-305,  5.01868092543902e+284, 1.81300019653887e-130, 2.00996296128105e-310,  9.88745973064829e-203, 1.48100916022239e-304), .Dim = c(7L, 1L )))
-result <- do.call(GPGame:::nonDomInd_cpp,testlist)
-str(result)

@@ -1,3 +1,0 @@
-testlist <- list(ix = c(1040133119L, 1040133119L), jx = NA_integer_, ti = NA_integer_,      tj = c(-1L, -1L, -98L, -1L, -1L, -1L, -1L, -9781504L, 0L,      0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,      0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,      0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,      0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,      0L, 0L, 0L, 0L, 0L))
-result <- do.call(multbxxc:::match_ij,testlist)
-str(result)

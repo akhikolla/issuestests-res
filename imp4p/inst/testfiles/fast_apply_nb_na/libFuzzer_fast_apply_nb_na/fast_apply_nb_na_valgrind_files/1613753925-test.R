@@ -1,3 +1,0 @@
-testlist <- list(X = structure(c(2.17321380656048e-311, 130800.25011323,  2.46690883737452e-308, 5.17292073926069e+54, 2.1137229344499e-314,  1.0827255943009e-317, 1.76258888871447e+223), .Dim = c(7L, 1L )), dim = 677605230L)
-result <- do.call(imp4p:::fast_apply_nb_na,testlist)
-str(result)

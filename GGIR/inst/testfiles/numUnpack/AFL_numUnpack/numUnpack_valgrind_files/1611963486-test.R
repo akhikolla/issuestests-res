@@ -1,3 +1,0 @@
-testlist <- list(pack = c(-1677944161L, -1843322591L, 570425215L, -1105564L,  -1680103287L, -1684300901L, -1680103269L, -1684300837L, -1180984421L,  -1684300880L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L))
-result <- do.call(GGIR:::numUnpack,testlist)
-str(result)

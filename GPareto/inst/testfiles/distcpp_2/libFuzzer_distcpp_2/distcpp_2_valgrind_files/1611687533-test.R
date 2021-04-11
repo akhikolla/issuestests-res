@@ -1,3 +1,0 @@
-testlist <- list(X1 = structure(0, .Dim = c(1L, 1L)), X2 = structure(5.97554014735821e-311, .Dim = c(1L,  1L)))
-result <- do.call(GPareto:::distcpp_2,testlist)
-str(result)

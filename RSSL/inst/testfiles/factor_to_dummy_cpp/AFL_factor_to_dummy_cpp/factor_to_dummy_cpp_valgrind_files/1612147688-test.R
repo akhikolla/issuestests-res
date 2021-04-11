@@ -1,3 +1,0 @@
-testlist <- list(c = 0L, y = c(50401024L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L))
-result <- do.call(RSSL:::factor_to_dummy_cpp,testlist)
-str(result)

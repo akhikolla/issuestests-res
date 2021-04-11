@@ -1,3 +1,0 @@
-testlist <- list(dvs = structure(7.2911220195564e-304, .Dim = c(1L, 1L)),      nd = 0L)
-result <- do.call(redist:::bias,testlist)
-str(result)

@@ -1,3 +1,0 @@
-testlist <- list(prod = c(4.45014772672803e-308, -8.09424604931836e-174,  3.16265120127928e-312, 1.14460714937198e-257, NaN, NaN, NaN,  7.2911185428787e-304, 2.17127029377853e-319, 3.61845198222857e+125,  -2.17472894706921e-272, 8.30987219433869e-246), vmat = structure(NaN, .Dim = c(1L,  1L)))
-result <- do.call(Rlda:::convertVtoTheta,testlist)
-str(result)

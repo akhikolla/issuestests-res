@@ -1,3 +1,0 @@
-testlist <- list(ids = c(0L, 0L, 28L, 0L, -721420288L, 0L, 0L, 0L, 0L, 1073741824L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 1048576L, 56832L,  16646143L, -16777152L, 536870912L, 0L, 0L, 0L, 0L, 128L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L))
-result <- do.call(RcppCWB:::ids_to_count_matrix,testlist)
-str(result)

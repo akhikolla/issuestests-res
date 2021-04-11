@@ -1,3 +1,0 @@
-testlist <- list(eps = 0, lat1 = c(-2.72277896812169e-40, NaN, -7.35720133631789e+274,  1.33230700790647e+161, NaN, NA, 1.78006070449081e-307, -1.42626083377486e+305,  NaN, NaN, NaN, NaN, NaN, 4.00513294531296e-307, 7.29280473908888e-304,  2.25252634212835e-23, 0, 2.25277361481388e-23, NaN, 0, 0), lat2 = numeric(0),      lon1 = NA_real_, lon2 = 0)
-result <- do.call(gear:::gcdist2,testlist)
-str(result)

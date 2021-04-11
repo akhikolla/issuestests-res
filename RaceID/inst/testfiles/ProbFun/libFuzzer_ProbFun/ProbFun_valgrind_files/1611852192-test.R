@@ -1,3 +1,0 @@
-testlist <- list(v = NaN, w = -9.12488123524439e+192, x = c(1.20794052510925e+161,  8.62314579733939e-308, 4.73213318178215e-312, -6.4198059791731e-145,  6.16306813044978e-31, 6.78868312437044e+199, 1.15142307984241e-250,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN))
-result <- do.call(RaceID:::ProbFun,testlist)
-str(result)

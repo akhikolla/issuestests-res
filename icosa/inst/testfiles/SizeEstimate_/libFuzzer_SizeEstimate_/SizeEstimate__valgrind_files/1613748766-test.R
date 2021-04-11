@@ -1,3 +1,0 @@
-testlist <- list(tesselation = c(9.3367814802472e-313, NaN, 1.06441166429553e-314,  5.94796441232897e+228, 3.30025452722194e+180, 2.9214046697136e-306,  -2.37014675976902e+61, -1.26836416866541e-30, -2.93707347811443e-306,  NaN, NaN, NaN, NaN, NaN, NaN, 5.30605522326291e-306, 0))
-result <- do.call(icosa:::SizeEstimate_,testlist)
-str(result)

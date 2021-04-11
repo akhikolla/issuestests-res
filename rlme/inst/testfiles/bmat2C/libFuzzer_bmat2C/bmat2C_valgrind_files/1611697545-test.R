@@ -1,3 +1,0 @@
-testlist <- list(sec = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0), v1 = 4.77048793303575e-299, v2 = -2.29148886336268e+193)
-result <- do.call(rlme:::bmat2C,testlist)
-str(result)

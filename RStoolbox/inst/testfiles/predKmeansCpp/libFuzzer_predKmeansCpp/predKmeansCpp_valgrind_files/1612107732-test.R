@@ -1,3 +1,0 @@
-testlist <- list(centers = structure(c(6.07857763730461e+199, 5.46834204431745e-304,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(6L, 6L)), x = structure(c(9.74610542998708e-317,  6.23743640296652e-90, 6.07857763730461e+199, 6.07857763730461e+199 ), .Dim = c(1L, 4L)))
-result <- do.call(RStoolbox:::predKmeansCpp,testlist)
-str(result)

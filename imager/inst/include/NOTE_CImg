@@ -1,1 +1,0 @@
-I removed the lines that contained #pragma warning() or #pragma GCC diagnostic.

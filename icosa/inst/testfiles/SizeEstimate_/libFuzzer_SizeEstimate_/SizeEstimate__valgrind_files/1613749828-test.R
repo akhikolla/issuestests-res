@@ -1,3 +1,0 @@
-testlist <- list(tesselation = c(5.94796441232897e+228, 1.19251219716169e+190,  5.02946927555681e+223, 5.07948890489386e-320, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
-result <- do.call(icosa:::SizeEstimate_,testlist)
-str(result)

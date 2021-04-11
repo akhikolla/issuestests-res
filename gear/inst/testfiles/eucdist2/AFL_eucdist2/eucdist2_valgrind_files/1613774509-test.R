@@ -1,3 +1,0 @@
-testlist <- list(eps = 0, x1 = c(-1.13268100492769e-72, -2.56371601591631e-69,  8.0848670074608e-317, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0), x2 = numeric(0), y1 = numeric(0), y2 = numeric(0))
-result <- do.call(gear:::eucdist2,testlist)
-str(result)

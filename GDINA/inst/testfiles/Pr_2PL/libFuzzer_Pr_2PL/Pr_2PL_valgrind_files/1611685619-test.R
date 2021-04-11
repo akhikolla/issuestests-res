@@ -1,3 +1,0 @@
-testlist <- list(a = 1.51979061301805e-47, b = 1.51979061388169e-47, theta = 1.269748709812e-320)
-result <- do.call(GDINA:::Pr_2PL,testlist)
-str(result)

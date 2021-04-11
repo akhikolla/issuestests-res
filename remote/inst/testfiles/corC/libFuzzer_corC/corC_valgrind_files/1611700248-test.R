@@ -1,3 +1,0 @@
-testlist <- list(x = c(4.94065645841247e-324, 0, 0), y = numeric(0))
-result <- do.call(remote:::corC,testlist)
-str(result)

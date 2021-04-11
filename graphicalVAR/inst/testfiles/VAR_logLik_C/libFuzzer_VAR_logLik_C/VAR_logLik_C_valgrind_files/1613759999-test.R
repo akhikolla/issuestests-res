@@ -1,3 +1,0 @@
-testlist <- list(X = structure(7.29112207387949e-304, .Dim = c(1L, 1L)),      Y = structure(c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,      0, 0), .Dim = c(6L, 9L)), beta = structure(0, .Dim = c(1L,      1L)), kappa = structure(0, .Dim = c(1L, 1L)))
-result <- do.call(graphicalVAR:::VAR_logLik_C,testlist)
-str(result)
